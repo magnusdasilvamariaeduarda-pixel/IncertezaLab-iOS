@@ -1,0 +1,19 @@
+name: IncertezaLab
+
+options:
+  bundleIdPrefix: com.duda
+
+targets:
+  IncertezaLab:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+
+    sources:
+      - Sources
+
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.duda.incertezaLab
+      SWIFT_VERSION: 5.0
+      INFOPLIST_KEY_UILaunchScreen_Generation: true
+      INFOPLIST_KEY_UIStatusBarStyle: UIStatusBarStyleLightContent
